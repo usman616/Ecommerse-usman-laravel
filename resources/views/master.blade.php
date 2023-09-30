@@ -25,7 +25,35 @@
     {{ View::make('fotter') }}
 </body>
 <style>
+    /* Add this CSS to your stylesheet  */
+    .slider-text {
+        background-color: rgb(145, 142, 142) !important;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    /* for images size fixing */
+    .trending-image{
+        height: 200px;
+        width: 300px;
+        
+    }
+    /* for display images in one row */
+    .trend{
+        /* margin: 10px; */
+        margin: 10px;
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 10px;
+        /* border-radius: 30px; */
+    }
+    /* .trending-items{
+        margin-left: 30px;
+    } */
+    .detail-img{
+        height: 200px;
 
+    }
 </style>
 
 <script></script>
