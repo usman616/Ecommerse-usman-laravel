@@ -45,10 +45,10 @@
         <div class="d-flex flex-wrap justify-content-between">
             @foreach ($products as $item)
             <div class="trend"> 
-                    <a href="detail/{{ $item['id'] }}">
+                    <a href="detail/{{ $item['id'] }}" class="product-style">
                     <img src="{{ $item['gallery'] }}" class="trending-image" 
                         >
-                    <div class="text-center my-2" >
+                    <div class="text-center my-2 custom-text" style="color:black;" >
                         <h5>{{ $item['name'] }}</h5>
                     </div>
                 </a>

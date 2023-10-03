@@ -32,14 +32,16 @@
         border-radius: 5px;
         color: white;
     }
+
     /* for images size fixing */
-    .trending-image{
+    .trending-image {
         height: 200px;
         width: 300px;
-        
+
     }
+
     /* for display images in one row */
-    .trend{
+    .trend {
         /* margin: 10px; */
         margin: 10px;
         margin-left: 60px;
@@ -47,13 +49,92 @@
         padding: 10px;
         /* border-radius: 30px; */
     }
+
     /* .trending-items{
         margin-left: 30px;
     } */
-    .detail-img{
-        height: 200px;
+    .detail-img {
+        height: 300px;
+        width: 400px;
+        margin-top: 30px;
+    }
+
+    .search-images {
+        width: 500px;
+        height: 400px;
 
     }
+
+    .search-box {
+        width: 500px !important;
+    }
+
+    .centered-container {
+        /* display: flex; */
+        /* justify-content: center; */
+        margin: auto;
+    }
+
+    /* Dropdown container */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown header (small box with username) */
+    .dropdown-header {
+        background-color: #dd2b2b;
+        color: white;
+        padding: 5px 10px;
+        border: 1px solid #dd2b2b;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    /* Style the menu items */
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: white;
+        border: 1px solid #dd2b2b;
+        border-radius: 5px;
+        padding: 0;
+        list-style: none;
+        z-index: 1;
+    }
+
+    /* Style the menu items */
+    .dropdown-menu li {
+        padding: 5px;
+        text-align: center;
+        
+    }
+
+    /* Change background color on hover */
+    .dropdown-header:hover {
+        background-color: #ff4444;
+    }
+
+    /* Display the dropdown when hovering over the trigger element */
+    #dropdown-trigger:hover .dropdown-menu {
+        display: block;
+        
+    }
+    .dropdown-menu a {
+    color: #333; /* Set your desired link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: normal; /* Set the font weight to normal by default */
+    transition: font-weight 0.3s;
+}
+.dropdown-menu li a:hover {
+    font-weight: bold; /* Make the font bold on hover */
+}
+.product-style{
+    text-decoration: none;
+
+}
+
 </style>
 
 <script></script>
